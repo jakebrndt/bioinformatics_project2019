@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_011449112.1       -          mcrAgene_MSA         -                  0 1020.2   0.1         0 1020.0   0.1   1.0   1   0   0   1   1   1   1 coenzyme-B sulfoethylthiotransferase subunit alpha 
+WP_011447201.1       -          hsp70gene_MSA        -           4.8e-301  997.1  26.9  5.5e-301  996.9  26.9   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+WP_052288776.1       -          hsp70gene_MSA        -           2.8e-147  489.2   3.2  3.9e-147  488.7   3.0   1.2   1   1   0   1   1   1   1 hypothetical protein 
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      combined_hmmbuild
+# Target file:     proteome_05.fasta
+# Option settings: hmmsearch --tblout proteome_05.txt combined_hmmbuild proteome_05.fasta 
+# Current dir:     /afs/crc.nd.edu/user/m/modea4/Private/bioinformatics_project2019/bioinformatics_project2019/proteomes
+# Date:            Fri Oct 18 14:25:21 2019
+# [ok]

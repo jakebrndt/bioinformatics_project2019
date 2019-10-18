@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_012941020.1       -          hsp70gene_MSA        -              0.063    8.2  17.2     0.068    8.1  17.2   1.0   1   0   0   1   1   1   0 ATP synthase archaeal subunit H 
+WP_012941024.1       -          hsp70gene_MSA        -               0.29    6.0  15.5      0.37    5.6  15.5   1.1   1   0   0   1   1   1   0 V-type ATP synthase subunit E 
+WP_012766394.1       -          hsp70gene_MSA        -                1.4    3.8  10.3       1.6    3.5  10.3   1.0   1   0   0   1   1   1   0 hypothetical protein 
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      combined_hmmbuild
+# Target file:     proteome_17.fasta
+# Option settings: hmmsearch --tblout proteome_17.txt combined_hmmbuild proteome_17.fasta 
+# Current dir:     /afs/crc.nd.edu/user/m/modea4/Private/bioinformatics_project2019/bioinformatics_project2019/proteomes
+# Date:            Fri Oct 18 14:25:23 2019
+# [ok]
